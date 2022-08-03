@@ -54,7 +54,47 @@
             >
           </li>
         </ul>
+        <button type="button" class="menu-button js-open-menu" aria-expanded="false" aria-controls="menu-container" data-mobile-menu-open>
+                    <svg class="mobile-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+                        <use href="./images/icons.svg#menu"></use>
+                    </svg>
+                </button>
       </div>
+       <div class="menu-container js-menu-container" id="menu-container" data-mobile-menu>
+            <button type="button" class="menu-button js-close-menu" data-mobile-menu-close>
+                <svg class="mobile-icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+                    <use href="./images/icons.svg#close-burger"></use>
+                </svg>
+            </button>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="mobile-nav__item">
+                        <a href="./index.html" class="mobile-nav__link current">Cтудия</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="./portfolio.html" class="mobile-nav__link">Портфолио</a>
+                    </li>
+                    <li class="mobile-nav__item">
+                        <a href="" class="mobile-nav__link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile-links">
+                <ul class="mobile-contact">
+                    <li class="mobile-contacts"><a href="tel:+380961111111" class="mobile-phone">+38 096 111 11 11</a>
+                    </li>
+                    <li class="mobile-contacts"><a href="mailto:info@devstudio.com" class="mobile-mail">info@devstudio.com</a>
+                    </li>
+                    
+                </ul>
+                <ul class="mobile-socials">
+                    <li class="mobile-socials-link">Instagram</li>
+                    <li class="mobile-socials-link">Twitter</li>
+                    <li class="mobile-socials-link">Facebook</li>
+                    <li class="mobile-socials-link">LinkedIn</li>
+                </ul>
+            </div>
+           </div> 
     </header>
     <main>
       <h1 class="visually-hidden">Наши работы</h1>
@@ -85,13 +125,13 @@
           <ul class="portfolio">
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  class="img-mo-gap"
-                  src="images/tekhno.jpg"
-                  width="370"
-                  height="294"
-                  alt="Фото сайта"
-                />
+                <picture>
+                        <source srcset="./images/tekhno-mobile.jpg 1x, ./images/tekhno-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/tekhno-tab.jpg 1x, ./images/tekhno-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/tekhno-desk.jpg 1x, ./images/tekhno-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/tekhno-desk.jpg" alt="Фото сайта" />
+                   </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -108,12 +148,16 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/poster.jpg"
-                  width="370"
-                  height="294"
-                  alt="Фото постера"
-                />
+                <picture>
+                        <source srcset="./images/poster-mobile.jpg 1x, ./images/poster-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/poster-tab.jpg 1x, ./images/poster-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/poster-desk.jpg 1x, ./images/poster-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/poster-desk.jpg" alt="Фото постера"
+                  />
+                   </picture>
+                 
+                
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -132,12 +176,14 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/seafood.jpg"
-                  width="370"
-                  height="294"
-                  alt="Фото приложения для ресторана"
-                />
+                <picture>
+                        <source srcset="./images/seafood-mobile.jpg 1x, ./images/seafood-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/seafood-tab.jpg 1x, ./images/seafood-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/seafood-desk.jpg 1x, ./images/seafood-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/seafood-desk.jpg" alt="Фото приложения для ресторана"
+               />
+                 </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -154,12 +200,14 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/prime.jpg"
-                  width="370"
-                  height="294"
-                  alt="Фото наушников"
-                />
+                <picture>
+                        <source srcset="./images/prime-mobile.jpg 1x, ./images/prime-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/prime-tab.jpg 1x, ./images/prime-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/prime-desk.jpg 1x, ./images/prime-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/prime-desk.jpg" alt="Фото наушников"
+                 />
+                 </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -176,12 +224,15 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/box.jpg"
-                  width="370"
-                  height="294"
+               <picture>
+                        <source srcset="./images/box-mobile.jpg 1x, ./images/box-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/box-tab.jpg 1x, ./images/box-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/box-desk.jpg 1x, ./images/box-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/box-desk.jpg"
                   alt="Фото дизайна коробок"
                 />
+                   </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -198,12 +249,15 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/inspir.jpg"
-                  width="370"
-                  height="294"
+                <picture>
+                        <source srcset="./images/inspir-mobile.jpg 1x, ./images/inspir-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/inspir-tab.jpg 1x, ./images/inspir-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/inspir-desk.jpg 1x, ./images/inspir-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/inspir-desk.jpg"
                   alt="Фото монитора"
                 />
+                 </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -220,12 +274,15 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/la.jpg"
-                  width="370"
-                  height="294"
-                  alt="Фото книги"
+                    <picture>
+                        <source srcset="./images/lim-mobile.jpg 1x, ./images/lim-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/lim-tab.jpg 1x, ./images/lim-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/lim-desk.jpg 1x, ./images/lim-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/lim-desk.jpg"
+                  alt="Фото книгиim-"
                 />
+                </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -242,12 +299,15 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/lab.jpg"
-                  width="370"
-                  height="294"
+              <picture>
+                        <source srcset="./images/lab-mobile.jpg 1x, ./images/lab-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/lab-tab.jpg 1x, ./images/lab-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/lab-desk.jpg 1x, ./images/lab-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/lab-desk.jpg"
                   alt="Фото бирки"
                 />
+                </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -264,12 +324,15 @@
 
             <li class="portfolio__item">
               <div class="portfolio__img">
-                <img
-                  src="images/growwing.jpg"
-                  width="370"
-                  height="294"
+                <picture>
+                        <source srcset="./images/growing-mobile.jpg 1x, ./images/growing-mobile@2x.jpg 2x" media="(max-width:480px)"/>
+                        <source srcset="./images/growing-tab.jpg 1x, ./images/growing-tab@2x.jpg 2x" media="(max-width:768px)"/>
+                        <source srcset="./images/growing-desk.jpg 1x, ./images/growing-desk@2x.jpg 2x" media="(min-width:769px)"/>
+                <img class="portfolio__photo"
+                  src="images/growing-desk.jpg"
                   alt="Фото ноутбука"
                 />
+                 </picture>
                 <div class="portfolio__overlay">
                   <p class="text__overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -349,5 +412,6 @@
     </footer>
     <!-- JS -->
     <script src="./js/modal.js"></script>
+     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

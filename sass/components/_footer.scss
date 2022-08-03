@@ -35,7 +35,7 @@ footer {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-top: 60px;
+  // margin-top: 60px;
 }
 .footer .logo__link {
   color: var(--accent-color);
@@ -53,8 +53,8 @@ footer {
 }
 
 .address__text {
-  margin-top: 20px;
-  margin-bottom: 9px;
+  display: block;
+  margin-top: 9px;
 
   &:hover,
   &:focus {
@@ -145,11 +145,16 @@ footer {
 
 .footer-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .footer-contacts {
-  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  // margin-right: 70px;
 }
 .footer-form__title {
   color: var(--primary-white-color);
@@ -159,4 +164,7 @@ footer {
   text-transform: uppercase;
   margin-bottom: 20px;
   margin-top: 12px;
+}
+.join {
+  margin: 60px auto;
 }
