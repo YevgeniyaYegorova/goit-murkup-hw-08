@@ -83,11 +83,14 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z" fill="black"/>
 </symbol>
 
-<symbol id="close_menu" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<symbol id="close-menu" width="19" height="19" viewBox="0 0 19 19" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.6667 1.88L16.7867 0L9.33333 7.45334L1.88 0L0 1.88L7.45334 9.33333L0 16.7867L1.88 18.6667L9.33333 11.2133L16.7867 18.6667L18.6667 16.7867L11.2133 9.33333L18.6667 1.88Z" fill="#212121"/>
-</svg>
+</symbol>
 
-<symbol id="send">
+<symbol id="send" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 0 0 13.5l7.67 2.84L19.5 5.25l-8.998 12.14.007.002-.009-.002V24l4.301-5.018L20.251 21 24 0Z" fill="#fff"/></svg>
+</symbol>
+<symbol id="send"> 
 <path d="M24 0 0 13.5l7.67 2.84L19.5 5.25l-8.998 12.14.007.002-.009-.002V24l4.301-5.018L20.251 21 24 0Z" fill="#fff"/>
 </symbol>
 

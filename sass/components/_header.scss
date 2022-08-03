@@ -18,9 +18,12 @@
 .site-nav {
   display: none;
   padding-left: 0px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   margin-top: 0px;
   margin-bottom: 0px;
-  display: flex;
+  // display: flex;
   margin-left: 93px;
 }
 .site-nav__item {
@@ -35,10 +38,7 @@
   text-decoration: none;
   color: var(--title-text-color);
   font-family: Roboto;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
   position: relative;
