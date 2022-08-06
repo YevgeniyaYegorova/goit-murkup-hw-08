@@ -29,6 +29,10 @@
 @media screen and (min-width: 768px) {
   .footer-form__input {
     margin-left: 150px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 16px;
+    padding-right: 0px;
   }
 }
 
@@ -76,6 +80,9 @@
 @media screen and (min-width: 768px) {
   .footer-form__submit {
     margin-left: 290px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
   }
 }
 
