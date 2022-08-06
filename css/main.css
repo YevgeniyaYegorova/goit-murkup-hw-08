@@ -1371,9 +1371,13 @@ textarea {
 }
 @media screen and (min-width: 1200px) {
   .footer-form__input {
-    margin-left: 0;
+    margin-left: 20px;
     width: 358px;
     margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 16px;
+    padding-right: 0px;
   }
 }
 .footer-form__title {
@@ -1415,6 +1419,9 @@ textarea {
   .footer-form__submit {
     margin-left: 12px;
     margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 29px;
   }
 }
 .footer-form__icon {
