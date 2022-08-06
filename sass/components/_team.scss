@@ -1,13 +1,19 @@
 .team {
   background-color: #f5f4fa;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  // padding-top: 30px;
+  // padding-bottom: 30px;
   min-width: 480px;
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
   .team {
-    // width: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 .team__title,
@@ -17,15 +23,14 @@
   font-size: 28px;
   line-height: 1.17;
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin-bottom: 30px;
+  // margin-top: 30px;
 }
 @media screen and (min-width: 1200px) {
   .team__title,
   .clients__title {
     font-size: 36px;
     margin-bottom: 50px;
-    margin-top: 0;
   }
 }
 .team__name {
