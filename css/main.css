@@ -644,7 +644,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .form__input {
-    width: 448px;
+    width: 328px;
   }
 }
 textarea {
@@ -698,7 +698,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .form__area {
-    width: 448px;
+    width: 348px;
   }
 }
 .checkbox {
@@ -728,6 +728,8 @@ textarea {
   .angree {
     margin-left: 14px;
     margin-right: 11px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 }
 .comment {
