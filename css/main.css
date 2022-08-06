@@ -1094,6 +1094,8 @@ textarea {
   .clients__list {
     flex-basis: calc(16.6666666667% - 30px);
     margin: 0;
+    -webkit-padding-start: 0px;
+            padding-inline-start: 0px;
   }
 }
 .clients__item {
