@@ -1,6 +1,6 @@
-html {
-  box-sizing: border-box;
-}
+// html {
+//   box-sizing: border-box;
+// }
 
 *,
 *::before,
@@ -17,19 +17,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-// img {
-//   display: block;
-//   max-width: 100%;
-//   height: auto;
-// }
-
 h1,
 h2,
 h3,
@@ -37,9 +24,11 @@ h4,
 h5,
 h6,
 a,
-p {
+p,
+ul {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  list-style: none;
 }

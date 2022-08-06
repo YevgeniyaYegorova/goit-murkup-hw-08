@@ -1,5 +1,6 @@
 .menu-container {
   display: flex;
+  position: fixed;
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
@@ -37,8 +38,19 @@
   padding: 0;
   background-color: transparent;
   border: none;
-}
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+  // &:hover,
+  // &:focus {
+  //   fill: var(--accent-color);
+  // }
+}
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
 .mobile-nav__link {
   font-weight: 500;
   font-size: 40px;

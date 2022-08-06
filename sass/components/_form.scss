@@ -7,7 +7,7 @@
   display: block;
   position: relative;
   margin-bottom: 28px;
-  width: 448px;
+  width: 378px;
   outline: none;
   font-size: 14px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -17,8 +17,13 @@
     outline: none;
   }
 }
+@media screen and (min-width: 1200px) {
+  .form__field {
+    width: 448px;
+  }
+}
 .form__input {
-  width: 448px;
+  width: 370px;
   padding: 10px 10px 10px 42px;
   font-size: 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -36,7 +41,11 @@
     fill: var(--accent-color);
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .form__input {
+    width: 448px;
+  }
+}
 textarea {
   height: 120px;
   resize: none;
@@ -58,7 +67,7 @@ textarea {
 .form__icon {
   position: absolute;
   top: 0;
-  left: 11px;
+  left: 0;
   transform: translatex(50%);
 }
 
@@ -73,7 +82,7 @@ textarea {
 }
 
 .form__area {
-  width: 448px;
+  width: 370px;
   padding: 12px 11px 16px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -85,7 +94,11 @@ textarea {
     outline: none;
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .form__area {
+    width: 448px;
+  }
+}
 .checkbox {
   position: absolute;
   width: 1px;
@@ -99,13 +112,20 @@ textarea {
   overflow: hidden;
 }
 .agree {
+  font-size: 12px;
   position: relative;
   padding-left: 24px;
   margin-bottom: 30px;
   display: flex;
   align-items: center;
-  margin-left: 14px;
-  margin-right: 11px;
+  // margin-left: 14px;
+  // margin-right: 11px;
+}
+@media screen and (min-width: 1200px) {
+  .angree {
+    margin-left: 14px;
+    margin-right: 11px;
+  }
 }
 .comment {
   height: 120px;
