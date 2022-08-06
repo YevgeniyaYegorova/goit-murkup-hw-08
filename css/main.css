@@ -805,7 +805,6 @@ textarea {
   .features__item {
     flex-basis: 50%;
     width: 50%;
-    padding: 15px;
     margin-bottom: 0;
   }
 }
@@ -842,7 +841,6 @@ textarea {
   line-height: 1.71;
   margin-top: 0px;
   margin-bottom: 0px;
-  letter-spacing: 0.03em;
 }
 
 .features__icons {
