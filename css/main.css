@@ -1343,7 +1343,6 @@ textarea {
 @media screen and (min-width: 1200px) {
   .footer-form {
     margin-top: 0;
-    margin-left: 93px;
     margin-right: auto;
   }
 }
@@ -1531,7 +1530,7 @@ textarea {
 }
 @media screen and (max-width: 767px) {
   .join {
-    margin: 60px auto;
+    margin: 60px;
   }
 }
 .join__title,
@@ -1569,6 +1568,8 @@ textarea {
 
 .social-links {
   display: flex;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 
 .social-links__item {
