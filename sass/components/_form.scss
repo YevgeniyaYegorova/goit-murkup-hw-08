@@ -1,13 +1,19 @@
 .form {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0;
-  width: 420px;
+  width: 370px;
   height: 520px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 @media screen and (min-width: 1200px) {
   .form {
-    width: 378px;
-    padding: 20px;
+    width: 448px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 0px;
     margin: 0;
   }
 }
@@ -15,6 +21,7 @@
   display: block;
   position: relative;
   margin-bottom: 28px;
+  margin-right: 0;
   width: 370px;
   outline: none;
   font-size: 14px;
@@ -28,6 +35,7 @@
 @media screen and (min-width: 1200px) {
   .form__field {
     width: 448px;
+    //  padding: 10;
   }
 }
 .form__input {
@@ -54,7 +62,10 @@
   .form__input {
     // 328
     width: 448px;
-    padding: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
   }
 }
 textarea {
@@ -93,6 +104,7 @@ textarea {
 }
 
 .form__area {
+  color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   width: 370px;
   padding-bottom: 0px;
@@ -112,8 +124,12 @@ textarea {
 }
 @media screen and (min-width: 1200px) {
   .form__area {
+    color: rgba(117, 117, 117, 0.5);
     width: 448px;
-    // 348
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
 }
 .form__checkbox {
@@ -136,12 +152,13 @@ textarea {
   display: flex;
   align-items: center;
   margin-left: 14px;
-  margin-right: 11px;
+  // margin-right: 11px;
+  width: 370px;
 }
 @media screen and (min-width: 1200px) {
   .form__field--agree {
     margin-left: 14px;
-    margin-right: 11px;
+    // margin-right: 11px;
     margin-top: 20px;
     margin-bottom: 30px;
   }
@@ -149,6 +166,7 @@ textarea {
 .form__field--comment {
   height: 120px;
   margin-bottom: 20px;
+  margin-right: 0px;
 }
 .form__check {
   position: absolute;
