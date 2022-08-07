@@ -1,15 +1,14 @@
 .form {
-  padding: 0px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 0px;
-  margin-top: 20px;
-  width: 370px;
+  padding: 20px;
+  margin: 0;
+  width: 420px;
+  height: 520px;
 }
 @media screen and (min-width: 1200px) {
   .form {
-    width: 448px;
+    width: 378px;
     padding: 20px;
+    margin: 0;
   }
 }
 .form__field {
@@ -33,7 +32,7 @@
 }
 .form__input {
   width: 370px;
-  padding: 10px 10px 10px 42px;
+  // padding: 10px 10px 10px 42px;
   font-size: 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -97,7 +96,7 @@ textarea {
   font-size: 12px;
   width: 370px;
   padding-bottom: 0px;
-  padding-left: 11px;
+  padding-left: 4px;
   padding-right: 0px;
   padding-top: 11px;
   border-radius: 4px;
