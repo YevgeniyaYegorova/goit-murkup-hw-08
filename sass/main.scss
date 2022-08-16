@@ -1,19 +1,15 @@
 @import "./utils/variables";
 @import "./utils/base";
-@import "./utils/hidden";
-@import "./layouts/container";
+@import "./utils/mixin";
+
 @import "./components/header";
 @import "./components/mobile-menu";
-@import "./components/logo";
-@import "./components/contacts";
 @import "./components/hero";
 @import "./components/modal";
-@import "./components/form";
-@import "./components/features";
+@import "./components/benefits-section";
 @import "./components/carts";
 @import "./components/team";
 @import "./components/clients";
-@import "./components/filters";
+@import "./components/works";
 @import "./components/portfolio";
-@import "./components/footerform";
 @import "./components/footer";
