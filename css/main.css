@@ -540,7 +540,7 @@ a {
   color: #ffffff;
   font-weight: 900;
   font-size: 26px;
-  line-height: 1.62;
+  line-height: 1.6;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -1003,7 +1003,6 @@ a {
 
 .flex-element {
   position: relative;
-  margin-right: 30px;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 767px) {
